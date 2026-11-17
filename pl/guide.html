@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Instrukcja obsługi – Auditfolio</title>
+<style>
+:root{--bg:#1A130F;--card:#241A15;--fg:#E4E1DC;--muted:rgba(228,225,220,.66);--accent:#E2CEA7;--line:rgba(197,166,102,.25)}
+@media (prefers-color-scheme: light){:root{--bg:#FAF8F4;--card:#FFFFFF;--fg:#1A130F;--muted:#5d554e;--accent:#8a6a2c;--line:rgba(138,106,44,.25)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{color:var(--accent);font-size:1.7rem;margin:0 0 4px}
+h2{color:var(--accent);font-size:1.15rem;margin:28px 0 8px}
+p{margin:0 0 12px}
+.asof{color:var(--muted);margin-bottom:24px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px;font-size:.95rem}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
+.btn{display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;border:1px solid var(--accent);border-radius:10px;text-decoration:none}
+.links{display:flex;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body><main>
+<nav><a href="../pl/guide.html" lang="pl">Polski</a> <a href="../en/guide.html" lang="en">English</a> <a href="../de/guide.html" lang="de">Deutsch</a> <a href="../index.html">Wsparcie</a></nav>
+<h1>Instrukcja obsługi</h1>
+<p>Auditfolio zbiera dokumenty podczas audytu: papierowe strony i to, co ktoś pokazuje na ekranie. Zdjęcia zostają zaszyfrowane na urządzeniu, a na koniec powstaje przeszukiwalny PDF.</p>
+<h2>Zanim zaczniesz</h2>
+<p>Przy pierwszym zdjęciu aplikacja poprosi o dostęp do aparatu. Otwarcie zapisanej sesji wymaga Face ID, Touch ID albo kodu urządzenia.</p><p>Przycisk „Ustaw aparat” na ekranie głównym pomaga dobrać odległość i światło. Wskaźniki ostrości, odblasku, dokumentu i bezruchu robią się zielone, gdy kadr jest dobry. Na tym ekranie nic się nie zapisuje.</p>
+<h2>Nowa sesja</h2>
+<p>Stuknij „Nowa sesja” i wpisz nazwę, na przykład klienta i datę. Ta nazwa trafi do nazwy pliku PDF.</p><p>„Zdjęcia automatyczne” decyduje, czy aplikacja sama robi zdjęcia. Po wyłączeniu zdjęcie robisz wyłącznie przyciskiem „Ręcznie”. „Najwyższa jakość zdjęć” daje więcej szczegółów, ale każde zdjęcie trwa dłużej. Zmienisz to też w trakcie przyciskiem „HQ”.</p>
+<h2>Fotografowanie</h2>
+<p>W trybie automatycznym trzymaj telefon nad dokumentem i przekładaj kartki. Aplikacja czeka, aż obraz się uspokoi i będzie ostry, a zapis potwierdza krótkim błyskiem z numerem strony. Strona bardzo podobna do poprzedniej zostaje zapisana z oznaczeniem do sprawdzenia.</p><p>Dokument na ekranie przewijaj powoli, tak żeby kolejne zdjęcia miały wspólny fragment. Jeśli go zabraknie, przegląd pokaże możliwą lukę.</p><p>Na dole są przyciski „Pauza”, „Ręcznie” i „Zakończ” oraz przełącznik „Auto”. „Wykryj kartkę” liczy ramkę dokumentu od nowa, na przykład po zmianie kartki na mniejszą.</p>
+<h2>Przegląd stron</h2>
+<p>Po stuknięciu „Zakończ” widzisz miniatury. Pod miniaturą są oznaczenia, takie jak „podobna do poprzedniej”, „może być nieostra” czy brak wspólnego fragmentu.</p><p>Stuknij stronę, żeby ją powiększyć. Tam możesz ją obrócić, poprawić kadr (narożniki, „Automatycznie” albo „Całe zdjęcie”), zacząć od niej nowy dokument albo ją usunąć. Nowy dokument oznacza, że eksport utworzy osobny plik PDF.</p><p>Na górze przeglądu są: zaznaczanie kilku stron do usunięcia, „Dołóż strony” (aparat w trybie ręcznym), „Znajdź powtórzenia” i „Kolejność stron”, gdzie przytrzymujesz stronę i przeciągasz ją na nowe miejsce.</p>
+<h2>Eksport PDF</h2>
+<p>Stuknij „Eksportuj PDF” i wybierz wygląd stron: „Dokument” (białe tło, wyraźny tekst), „Skala szarości” albo „Oryginalne kolory”, gdy liczą się pieczątki, wykresy czy zdjęcia. Jakość standardowa to około 290 dpi na A4, wysoka około 390 dpi.</p><p>PDF dostaje niewidoczną warstwę tekstu rozpoznanego na urządzeniu (polski i angielski), więc da się w nim wyszukiwać. Gotowy plik zapisujesz albo wysyłasz przez systemowy arkusz udostępniania, na przykład „Zachowaj w Plikach”.</p><p>Po zapisie aplikacja pyta, czy sprawdziłeś PDF. Dopiero potwierdzenie uruchamia odliczanie do usunięcia sesji z telefonu.</p><p>W „Ustawieniach” włączysz szyfrowanie PDF losowym hasłem, stopkę z nazwą sesji, numerem strony i datą oraz znak wodny. Hasło zobaczysz w sesji i w menu ⋯ na liście sesji. Przekaż je innym kanałem niż plik, na przykład SMS-em.</p>
+<h2>Przechowywanie i usuwanie</h2>
+<p>Zdjęcia i nazwy sesji są zaszyfrowane na urządzeniu. Nie trafiają do galerii ani do kopii zapasowej iCloud.</p><p>Po potwierdzonym eksporcie sesja usuwa się z telefonu sama po 7 dniach. Przełącznik „Usuń z telefonu po 7 dniach” w przeglądzie sesji włącza to samo także bez eksportu; wtedy termin liczy się od ostatniej zmiany. Każda zmiana sesji po eksporcie wstrzymuje usunięcie.</p><p>Lista sesji pokazuje, kiedy która sesja zniknie. Sesję możesz też usunąć od razu z menu ⋯ na liście. Wyeksportowane pliki PDF zostają tam, gdzie je zapisano.</p>
+<h2>Zgłoś błąd albo pomysł</h2>
+<p>Napisz na adres poniżej. Przy błędzie podaj model urządzenia, wersję iOS, wersję aplikacji (ekran „Informacje”) i kroki, które do niego prowadzą.</p><p>Nie dołączaj zdjęć dokumentów ani danych osobowych. Jeśli zrzut ekranu jest potrzebny, zrób go na przykładowym dokumencie.</p><p><a class="btn" href="mailto:tuzinkowy.cyraneczka.9m@icloud.com?subject=Auditfolio%20%E2%80%93%20b%C5%82%C4%85d">Zgłoś błąd</a><a class="btn" href="mailto:tuzinkowy.cyraneczka.9m@icloud.com?subject=Auditfolio%20%E2%80%93%20pomys%C5%82">Zaproponuj zmianę</a></p><p><a href="mailto:tuzinkowy.cyraneczka.9m@icloud.com">tuzinkowy.cyraneczka.9m@icloud.com</a></p>
+
+</main></body>
+</html>
