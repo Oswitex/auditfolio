@@ -20,6 +20,10 @@ a{color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
 .btn{display:inline-block;margin:4px 8px 4px 0;padding:8px 14px;border:1px solid var(--accent);border-radius:10px;text-decoration:none}
 .links{display:flex;gap:16px;flex-wrap:wrap}
+.shots{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 20px}
+.shots figure{margin:0;flex:0 1 240px}
+.shots img{width:100%;height:auto;border-radius:18px;border:1px solid var(--line);display:block}
+.shots figcaption{color:var(--muted);font-size:.85rem;margin-top:6px}
 </style>
 </head>
 <body><main>
@@ -30,12 +34,15 @@ a{color:var(--accent)}
 <p>The app asks for camera access before the first photo. Opening a saved session requires Face ID, Touch ID or the device passcode.</p><p>&quot;Set up camera&quot; on the home screen helps you find the right distance and light. The sharpness, glare, document and stillness indicators turn green when the framing is good. Nothing is saved on this screen.</p>
 <h2>New session</h2>
 <p>Tap &quot;New session&quot; and enter a name, for example the client and the date. The name is used for the PDF file name.</p><p>&quot;Automatic photos&quot; decides whether the app takes photos by itself. When it is off, you take photos only with the &quot;Manual&quot; button. &quot;Highest photo quality&quot; captures more detail, but each photo takes longer. You can change it while shooting with the &quot;HQ&quot; button.</p>
+<div class="shots"><figure><img src="../img/en/04-sesje.jpg" alt="Session list: the padlock means encryption; below the name – whether and when the session leaves the phone" loading="lazy"><figcaption>Session list: the padlock means encryption; below the name – whether and when the session leaves the phone</figcaption></figure></div>
 <h2>Taking photos</h2>
 <p>In automatic mode, hold the phone over the document and turn the pages. The app waits until the image is still and sharp and confirms each save with a short flash showing the page number. A page very similar to the previous one is saved with a flag to check.</p><p>Scroll a document on a screen slowly, so that consecutive photos overlap. If they do not, the review will point out a possible gap.</p><p>At the bottom you have &quot;Pause&quot;, &quot;Manual&quot; and &quot;Finish&quot; plus the &quot;Auto&quot; switch. &quot;Detect page&quot; recalculates the document frame, for example after switching to a smaller sheet.</p>
 <h2>Reviewing pages</h2>
 <p>After &quot;Finish&quot; you see thumbnails. Flags under a thumbnail include &quot;similar to the previous one&quot;, &quot;may be blurry&quot; and a missing overlap.</p><p>Tap a page to enlarge it. There you can rotate it, fix the crop (corners, &quot;Automatic&quot; or &quot;Whole photo&quot;), start a new document from it, or delete it. A new document means the export creates a separate PDF file.</p><p>The top bar offers selecting several pages to delete, &quot;Add pages&quot; (camera in manual mode), &quot;Find repeats&quot; and &quot;Page order&quot;, where you hold a page and drag it to a new place.</p>
+<div class="shots"><figure><img src="../img/en/01-przeglad.jpg" alt="Session review with the 7-day removal switch" loading="lazy"><figcaption>Session review with the 7-day removal switch</figcaption></figure><figure><img src="../img/en/02-strona.jpg" alt="Single page view with rotate, crop and delete" loading="lazy"><figcaption>Single page view with rotate, crop and delete</figcaption></figure></div>
 <h2>Exporting a PDF</h2>
 <p>Tap &quot;Export PDF&quot; and choose the page look: &quot;Document&quot; (white background, clear text), &quot;Greyscale&quot;, or &quot;Original colours&quot; when stamps, charts or photos matter. Standard quality is about 290 dpi on A4, high is about 390 dpi.</p><p>The PDF gets an invisible layer of text recognized on the device (Polish and English), so you can search it. Save or send the file through the system share sheet, for example &quot;Save to Files&quot;.</p><p>After saving, the app asks whether you have checked the PDF. Only this confirmation starts the countdown to removing the session from the phone.</p><p>In &quot;Settings&quot; you can turn on PDF encryption with a random password, a footer with the session name, page number and date, and a watermark. The password is shown in the session and in the ⋯ menu on the session list. Share it through a different channel than the file, for example by text message.</p>
+<div class="shots"><figure><img src="../img/en/03-eksport.jpg" alt="Choosing page look and quality before export" loading="lazy"><figcaption>Choosing page look and quality before export</figcaption></figure></div>
 <h2>Storage and deletion</h2>
 <p>Photos and session names are encrypted on the device. They never go to the photo library or to iCloud backup.</p><p>After a confirmed export, a session deletes itself from the phone after 7 days. The &quot;Remove from this phone after 7 days&quot; switch in the session review does the same without an export; the period then counts from the last change. Any change to a session after export pauses the deletion.</p><p>The session list shows when each session will disappear. You can also delete a session right away from the ⋯ menu on the list. Exported PDF files stay wherever you saved them.</p>
 <h2>Audit evidence</h2>
