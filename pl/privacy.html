@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Polityka prywatności – Auditfolio</title>
+<style>
+:root{--bg:#1A130F;--card:#241A15;--fg:#E4E1DC;--muted:rgba(228,225,220,.66);--accent:#E2CEA7;--line:rgba(197,166,102,.25)}
+@media (prefers-color-scheme: light){:root{--bg:#FAF8F4;--card:#FFFFFF;--fg:#1A130F;--muted:#5d554e;--accent:#8a6a2c;--line:rgba(138,106,44,.25)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{color:var(--accent);font-size:1.7rem;margin:0 0 4px}
+h2{color:var(--accent);font-size:1.15rem;margin:28px 0 8px}
+p{margin:0 0 12px}
+.asof{color:var(--muted);margin-bottom:24px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px;font-size:.95rem}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
+</style>
+</head>
+<body><main>
+<nav><a href="../pl/privacy.html" lang="pl">Polski</a> <a href="../en/privacy.html" lang="en">English</a> <a href="../de/privacy.html" lang="de">Deutsch</a> <a href="../index.html">Wsparcie</a></nav>
+<h1>Polityka prywatności</h1>
+<p class="asof">Stan na 17.11.2026</p>
+<h2>Kto odpowiada za dane</h2>
+<p>Aplikację Auditfolio tworzy i udostępnia Piotr Janiszewski (dalej „wydawca” albo „my”; dane kontaktowe są w „Informacjach prawnych”). Aplikacja działa wyłącznie na Twoim urządzeniu. Nie otrzymujemy zdjęć dokumentów, rozpoznanego tekstu ani nazw sesji, nie mamy do nich dostępu ani kluczy, którymi są zaszyfrowane.</p>
+<p>Za dane osobowe widoczne na fotografowanych dokumentach odpowiada ten, w czyim imieniu je fotografujesz, zwykle Twój pracodawca albo klient. To on jest administratorem tych danych i do niego kierują swoje wnioski osoby, których dane są w dokumentach.</p>
+<h2>Jakie dane powstają w aplikacji</h2>
+<p>Zdjęcia stron i ich podglądy, nazwa sesji, daty zdjęć, kolejność, obrót i kadr stron, techniczne pomiary jakości zdjęcia (ostrość, wykrycie kartki) oraz ustawienia detektora.</p>
+<p>Rozpoznawanie tekstu działa na urządzeniu, wyłącznie w pamięci: podczas fotografowania pomaga wykryć zmianę strony, a przy eksporcie tworzy warstwę tekstu w PDF. Rozpoznany tekst trafia tylko do pliku, który sam eksportujesz.</p>
+<h2>Jak dane są chronione</h2>
+<p>Wszystko zostaje w obszarze aplikacji na urządzeniu. Zdjęcia, układ stron i dziennik sesji są szyfrowane (AES-256-GCM) osobnym kluczem każdej sesji, a nazwy sesji na liście – odrębnym kluczem listy. Klucze leżą w pęku kluczy iOS, działają tylko na tym urządzeniu i tylko przy ustawionym kodzie blokady, nie synchronizują się z iCloud. Otwarcie sesji wymaga Face ID, Touch ID albo kodu.</p>
+<p>Pliki sesji są wyłączone z kopii zapasowej w iCloud i na komputerze. Aplikacja nie zapisuje zdjęć w systemowej aplikacji Zdjęcia.</p>
+<h2>Co opuszcza urządzenie</h2>
+<p>Aplikacja nie łączy się z internetem. Nie wymaga konta i nie wyświetla reklam. Nie zawiera narzędzi analitycznych, więc niczego nam nie wysyła.</p>
+<p>Plik PDF opuszcza aplikację tylko wtedy, gdy sam go zapiszesz albo wyślesz przez systemowe okno udostępniania. Miejsce docelowe (np. Pliki albo poczta) wybierasz Ty i od tej chwili za kopię odpowiada ten, kto ją przechowuje. W oknie udostępniania wyłączyliśmy schowek i zapis do Zdjęć.</p>
+<p>Jeżeli w ustawieniach iOS zgodzisz się na udostępnianie analiz twórcom aplikacji, Apple może przekazać nam raporty o awariach. Zawierają one informacje techniczne (np. model urządzenia, wersję systemu), bez zdjęć i treści dokumentów.</p>
+<h2>Jak długo dane są przechowywane</h2>
+<p>Sesję możesz usunąć w każdej chwili; znikają wtedy zdjęcia i klucz sesji. Po potwierdzeniu pełnego eksportu sesja usuwa się sama po 7 dniach (sprawdzane przy uruchomieniu aplikacji), a każda zmiana sesji po eksporcie wstrzymuje usunięcie. W przeglądzie sesji możesz też włączyć „Usuń z telefonu po 7 dniach” bez eksportu: sesja usuwa się wtedy 7 dni po ostatniej zmianie. O pozostałych sesjach bez eksportu aplikacja przypomina po 23 dniach, a po 30 dniach prosi o decyzję.</p>
+<p>Usunięcie aplikacji kasuje jej pliki. Klucze mogą zostać w pęku kluczy iOS, ale bez plików nie dają dostępu do żadnej treści. Kopii zapisanych poza aplikacją nie usuwamy i nie mamy na nie wpływu.</p>
+<h2>Tryb diagnostyczny</h2>
+<p>Domyślnie wyłączony. Po włączeniu w ustawieniach aplikacja zapisuje dodatkowo niezaszyfrowany dziennik pomiarów (liczby i stany detektora; bez zdjęć i tekstu, także bez nazw sesji), który można pobrać kablem na komputer. Służy do testów; nie włączaj go przy dokumentach klienta.</p>
+<h2>Uprawnienia</h2>
+<p>Aparat służy do fotografowania stron i działa tylko na ekranie zdjęć. Face ID odblokowuje klucz sesji. Aplikacja nie prosi o lokalizację, kontakty, mikrofon ani dostęp do Zdjęć.</p>
+<h2>Kontakt i skargi</h2>
+<p>Pytania o aplikację i tę politykę: tuzinkowy.cyraneczka.9m@icloud.com. Dane z Twojej wiadomości wykorzystamy tylko do odpowiedzi.</p>
+<p>Jeżeli uznasz, że przetwarzamy Twoje dane niezgodnie z prawem, możesz złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stanisława Moniuszki 1A, 00-014 Warszawa) albo do organu nadzorczego w państwie, w którym mieszkasz.</p>
+<h2>Zmiany</h2>
+<p>O zmianie polityki napiszemy w opisie aktualizacji. Aktualna wersja jest zawsze w aplikacji, w sekcji Informacje.</p>
+<h2>Informacje prawne</h2>
+<p><strong>Wydawca i autor aplikacji</strong><br>Piotr Janiszewski<br>tuzinkowy.cyraneczka.9m@icloud.com</p>
+
+</main></body>
+</html>

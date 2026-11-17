@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Datenschutzerklärung – Auditfolio</title>
+<style>
+:root{--bg:#1A130F;--card:#241A15;--fg:#E4E1DC;--muted:rgba(228,225,220,.66);--accent:#E2CEA7;--line:rgba(197,166,102,.25)}
+@media (prefers-color-scheme: light){:root{--bg:#FAF8F4;--card:#FFFFFF;--fg:#1A130F;--muted:#5d554e;--accent:#8a6a2c;--line:rgba(138,106,44,.25)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{color:var(--accent);font-size:1.7rem;margin:0 0 4px}
+h2{color:var(--accent);font-size:1.15rem;margin:28px 0 8px}
+p{margin:0 0 12px}
+.asof{color:var(--muted);margin-bottom:24px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px;font-size:.95rem}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
+</style>
+</head>
+<body><main>
+<nav><a href="../pl/privacy.html" lang="pl">Polski</a> <a href="../en/privacy.html" lang="en">English</a> <a href="../de/privacy.html" lang="de">Deutsch</a> <a href="../index.html">Support</a></nav>
+<h1>Datenschutzerklärung</h1>
+<p class="asof">Stand: 17.11.2026</p>
+<h2>Verantwortlichkeit</h2>
+<p>Auditfolio wird von Piotr Janiszewski entwickelt und bereitgestellt („Anbieter“, „wir“; Kontaktdaten im „Impressum“). Die App arbeitet ausschließlich auf Ihrem Gerät. Fotos von Dokumenten, erkannter Text und Sitzungsnamen erreichen uns nicht; wir haben weder Zugriff darauf noch die Schlüssel, mit denen sie verschlüsselt sind.</p>
+<p>Für die personenbezogenen Daten auf den fotografierten Dokumenten ist verantwortlich, in wessen Auftrag Sie fotografieren, meist Ihr Arbeitgeber oder Ihr Kunde. Er ist Verantwortlicher für diese Daten; Betroffene richten ihre Anfragen an ihn.</p>
+<h2>Welche Daten in der App entstehen</h2>
+<p>Fotos der Seiten und ihre Vorschauen, der Sitzungsname, Aufnahmezeitpunkte, Reihenfolge, Drehung und Zuschnitt der Seiten, technische Messwerte der Bildqualität (Schärfe, Seitenerkennung) sowie die Detektor-Einstellungen.</p>
+<p>Die Texterkennung läuft auf dem Gerät und nur im Arbeitsspeicher: Beim Fotografieren hilft sie, einen Seitenwechsel zu erkennen, beim Export erzeugt sie die Textebene des PDF. Erkannter Text gelangt nur in die Datei, die Sie selbst exportieren.</p>
+<h2>Wie die Daten geschützt sind</h2>
+<p>Alles bleibt im Bereich der App auf dem Gerät. Fotos, Seitenanordnung und Sitzungsprotokoll sind mit einem eigenen Schlüssel je Sitzung verschlüsselt (AES-256-GCM), die Sitzungsnamen in der Liste mit einem separaten Listenschlüssel. Die Schlüssel liegen im iOS-Schlüsselbund, funktionieren nur auf diesem Gerät und nur bei gesetztem Gerätecode und werden nicht mit iCloud synchronisiert. Zum Öffnen einer Sitzung sind Face ID, Touch ID oder der Code nötig.</p>
+<p>Die Sitzungsdateien sind von Backups in iCloud und auf dem Computer ausgenommen. Die App speichert keine Fotos in der System-App Fotos.</p>
+<h2>Was das Gerät verlässt</h2>
+<p>Die App stellt keine Internetverbindung her. Sie braucht kein Konto und zeigt keine Werbung. Sie enthält keine Analysewerkzeuge und sendet uns daher nichts.</p>
+<p>Ein PDF verlässt die App nur, wenn Sie es selbst über das System-Teilen-Menü speichern oder senden. Das Ziel (z. B. Dateien oder E-Mail) wählen Sie, und ab dann ist verantwortlich, wer die Kopie aufbewahrt. Im Teilen-Menü haben wir die Zwischenablage und das Speichern in Fotos deaktiviert.</p>
+<p>Wenn Sie in den iOS-Einstellungen zustimmen, Analysedaten mit App-Entwicklern zu teilen, kann Apple uns Absturzberichte übermitteln. Sie enthalten technische Angaben (z. B. Gerätemodell, Systemversion), aber keine Fotos und keine Dokumentinhalte.</p>
+<h2>Speicherdauer</h2>
+<p>Sie können eine Sitzung jederzeit löschen; dabei werden ihre Fotos und ihr Schlüssel entfernt. Nach der Bestätigung eines vollständigen Exports löscht sich die Sitzung nach 7 Tagen selbst (geprüft beim Start der App); jede Änderung nach dem Export hält die Löschung an. In der Sitzungsübersicht können Sie „Nach 7 Tagen vom Gerät löschen“ auch ohne Export einschalten: Die Sitzung löscht sich dann 7 Tage nach der letzten Änderung. An andere Sitzungen ohne Export erinnert die App nach 23 Tagen, nach 30 Tagen bittet sie um eine Entscheidung.</p>
+<p>Das Löschen der App entfernt ihre Dateien. Schlüssel können im iOS-Schlüsselbund verbleiben, geben ohne die Dateien aber keinen Zugriff auf Inhalte. Kopien außerhalb der App löschen wir nicht, und wir haben keinen Einfluss auf sie.</p>
+<h2>Diagnosemodus</h2>
+<p>Standardmäßig aus. Wenn Sie ihn in den Einstellungen einschalten, speichert die App zusätzlich ein unverschlüsseltes Messprotokoll (Zahlen und Zustände des Detektors; ohne Fotos und Text, auch ohne Sitzungsnamen), das per Kabel auf einen Computer übertragen werden kann. Er dient Tests; schalten Sie ihn bei Kundendokumenten nicht ein.</p>
+<h2>Berechtigungen</h2>
+<p>Die Kamera dient zum Fotografieren der Seiten und ist nur auf dem Aufnahmebildschirm aktiv. Face ID entsperrt den Sitzungsschlüssel. Die App fragt nicht nach Standort, Kontakten, Mikrofon oder Zugriff auf Fotos.</p>
+<h2>Kontakt und Beschwerden</h2>
+<p>Fragen zur App und zu dieser Erklärung: tuzinkowy.cyraneczka.9m@icloud.com. Die Angaben aus Ihrer Nachricht verwenden wir nur für die Antwort.</p>
+<p>Wenn Sie der Ansicht sind, dass wir Ihre Daten rechtswidrig verarbeiten, können Sie sich bei der polnischen Datenschutzbehörde (Prezes Urzędu Ochrony Danych Osobowych, ul. Stanisława Moniuszki 1A, 00-014 Warszawa) oder bei der Aufsichtsbehörde Ihres Wohnsitzlandes beschweren.</p>
+<h2>Änderungen</h2>
+<p>Änderungen dieser Erklärung beschreiben wir in den Update-Hinweisen. Die aktuelle Fassung finden Sie immer in der App unter Info.</p>
+<h2>Impressum</h2>
+<p><strong>Anbieter und Urheber der App</strong><br>Piotr Janiszewski<br>E-Mail: tuzinkowy.cyraneczka.9m@icloud.com</p>
+
+</main></body>
+</html>

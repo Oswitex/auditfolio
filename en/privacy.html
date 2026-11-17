@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Privacy policy – Auditfolio</title>
+<style>
+:root{--bg:#1A130F;--card:#241A15;--fg:#E4E1DC;--muted:rgba(228,225,220,.66);--accent:#E2CEA7;--line:rgba(197,166,102,.25)}
+@media (prefers-color-scheme: light){:root{--bg:#FAF8F4;--card:#FFFFFF;--fg:#1A130F;--muted:#5d554e;--accent:#8a6a2c;--line:rgba(138,106,44,.25)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{color:var(--accent);font-size:1.7rem;margin:0 0 4px}
+h2{color:var(--accent);font-size:1.15rem;margin:28px 0 8px}
+p{margin:0 0 12px}
+.asof{color:var(--muted);margin-bottom:24px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px;font-size:.95rem}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
+</style>
+</head>
+<body><main>
+<nav><a href="../pl/privacy.html" lang="pl">Polski</a> <a href="../en/privacy.html" lang="en">English</a> <a href="../de/privacy.html" lang="de">Deutsch</a> <a href="../index.html">Support</a></nav>
+<h1>Privacy policy</h1>
+<p class="asof">As of 17 November 2026</p>
+<h2>Who is responsible</h2>
+<p>Auditfolio is developed and provided by Piotr Janiszewski (“the publisher”, “we”; contact details are under “Legal information”). The app works only on your device. We do not receive the photos of documents, the recognised text or session names, and we have neither access to them nor the keys they are encrypted with.</p>
+<p>The personal data visible on the documents you photograph is the responsibility of whoever you photograph them for, usually your employer or client. They are the controller of that data, and people whose data appears in the documents should send their requests to them.</p>
+<h2>What data the app creates</h2>
+<p>Page photos and their previews, the session name, photo dates, the order, rotation and crop of pages, technical measurements of photo quality (sharpness, page detection) and the detector settings.</p>
+<p>Text recognition runs on the device and in memory only: while photographing it helps detect a page change, and on export it creates the text layer of the PDF. Recognised text only goes into the file you export yourself.</p>
+<h2>How the data is protected</h2>
+<p>Everything stays in the app’s area on the device. Photos, the page layout and the session journal are encrypted (AES-256-GCM) with a separate key for each session, and session names on the list with a separate list key. The keys are kept in the iOS keychain, work only on this device and only while a passcode is set, and are not synced to iCloud. Opening a session requires Face ID, Touch ID or the passcode.</p>
+<p>Session files are excluded from iCloud and computer backups. The app does not save photos to the system Photos app.</p>
+<h2>What leaves the device</h2>
+<p>The app does not connect to the internet. It needs no account and shows no ads. It contains no analytics tools, so it sends us nothing.</p>
+<p>A PDF leaves the app only when you save or send it yourself through the system share sheet. You choose the destination (e.g. Files or mail), and from then on whoever keeps the copy is responsible for it. We have disabled the clipboard and saving to Photos in the share sheet.</p>
+<p>If you agree in iOS settings to share analytics with app developers, Apple may pass crash reports on to us. They contain technical information (e.g. device model, system version), without photos or document content.</p>
+<h2>How long the data is kept</h2>
+<p>You can delete a session at any time; this removes its photos and its key. After you confirm a complete export, the session deletes itself after 7 days (checked when the app starts), and any change to the session after the export pauses the deletion. In the session review you can also turn on “Remove from this phone after 7 days” without an export: the session then deletes itself 7 days after its last change. The app reminds you of other sessions without an export after 23 days and asks for a decision after 30 days.</p>
+<p>Deleting the app removes its files. Keys may remain in the iOS keychain, but without the files they give no access to any content. We do not delete copies saved outside the app and have no control over them.</p>
+<h2>Diagnostic mode</h2>
+<p>Off by default. When switched on in the settings, the app also stores an unencrypted measurement log (detector numbers and states; no photos or text, and no session names either) that can be downloaded to a computer via cable. It is meant for testing; do not switch it on for client documents.</p>
+<h2>Permissions</h2>
+<p>The camera is used to photograph pages and only works on the capture screen. Face ID unlocks the session key. The app does not ask for location, contacts, the microphone or access to Photos.</p>
+<h2>Contact and complaints</h2>
+<p>Questions about the app and this policy: tuzinkowy.cyraneczka.9m@icloud.com. We will use the data in your message only to reply.</p>
+<p>If you believe we process your data unlawfully, you may lodge a complaint with the President of the Personal Data Protection Office in Poland (ul. Stanisława Moniuszki 1A, 00-014 Warszawa) or with the supervisory authority in the country where you live.</p>
+<h2>Changes</h2>
+<p>We will describe any change to this policy in the update notes. The current version is always in the app, under About.</p>
+<h2>Legal information</h2>
+<p><strong>Publisher and author of the app</strong><br>Piotr Janiszewski<br>tuzinkowy.cyraneczka.9m@icloud.com</p>
+
+</main></body>
+</html>
